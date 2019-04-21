@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>map</title>
+	<link rel="stylesheet" type="text/css" href="mylink.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+	<style type="text/css">
+			body 
+			{
+				background-image: url(wt_map1.jpg);
+		        background-position: center;
+	    		background-repeat: no-repeat;
+	    		background-size: 100%;
+	    		background-attachment: fixed;
+	    		margin: 0px;
+			}
+			.nav-tab:hover {
+				background-color: #f79859;
+			}
+			.nav-tab {
+				padding: 10px;
+				color: black;
+				border-left: 0.2px solid grey;
+				border-radius: 4px;
+			}
+			.nav-tab a:link {
+				color: black;
+			}
+			.nav-tab a:hover, a:active, a:focus {
+				color: black;
+			}
+			#header {
+				border: 0.2px solid grey;
+			}
+	</style>
+	<script>
+		function openNav() {
+  			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+  			document.getElementById("myNav").style.width = "0%";
+		}
+		</script>
+</head>
+	<body>
+		<a href="map_page.html" style="color: #e15b00;">
+			<i class="fa fa-globe fa-2x" style="position: absolute;padding-top: 5px;padding-left: 20px"></i>
+		</a>
+		<div id="header" align="right">
+			<table>
+				<tr>
+					<td class="nav-tab">
+						<a href="h_page.html" ><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+					</td>
+					<td class="nav-tab">
+						<a href="h_page.html"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Planner</a>						
+					</td>
+					<td class="nav-tab">
+						<a href="h_page.html"><i  class="fa fa-user-circle-o" aria-hidden="true"></i> Login</a>
+					</td>
+					<td class="nav-tab">
+						<a href="#""><i class="fa fa-location-arrow" aria-hidden="true"></i> Destinations</a>
+					</td>
+					<td class="nav-tab">
+						<a href="#" onclick="openNav()"><i class="fa fa-link" aria-hidden="true"></i> About</a>
+					</td>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="myNav" class="overlay">
+	    	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	    	<div class="overlay-content">
+	    		<a href="#">About</a>
+	    		<a href="#">Services</a>
+	    		<a href="#">Clients</a>
+	    		<a href="#">Contact</a>
+	  		</div>
+		</div>
+
+		<a href="map_page.html" class="d">
+				<i class="material-icons" style="position: fixed; left: 380px; top: 530px; background-attachment: fixed;">
+				</i>
+		</a>
+			
+			<!-- name="kerala" -->
+		<a href="delhi.html" class="d"><i class="material-icons" style="position: absolute; left: 29%; top: 35%; background-attachment: fixed;">place</i></a>
+		<a href="jaipur.html" class="d"><i class="material-icons" style="position: absolute; left: 24%; top: 40%; background-attachment: fixed;">place</i></a><!-- name="jaipur" -->
+		<a href="agra.html" class="d"><i class="material-icons" style="position: absolute; left: 31%; top: 39%; background-attachment: fixed;">place</i></a><!-- name="agra" -->
+
+		<a href="mysore.html" class="d"><i class="material-icons" style="position: fixed; left: 385px; top: 500px; background-attachment: fixed;">place</i></a><!-- name="mysore" -->
+		<a href="varanasi.html" class="d"><i class="material-icons" style="position: absolute; left: 33%; top: 40%; background-attachment: fixed;">place</i></a><!-- name="varanasi" -->
+		<a href="goa.html" class="d"><i class="material-icons" style="position: absolute; left: 26%; top: 77%; background-attachment: fixed;">place</i></a><!-- name="goa" -->
+		<a href="himachal.html" class="d"><i class="material-icons" style="position: absolute; left: 29%; top: 28%; background-attachment: fixed;">place</i></a><!-- name="himachal pradesh" -->
+		<a href="kolkata.html" class="d"><i class="material-icons" style="position: fixed; left: 548px; top: 335px; background-attachment: fixed;">place</i></a><!-- name="kolkata" -->
+		<a href="pune.html" class="d"><i class="material-icons" style="position: fixed; left: 360px; top: 400px; background-attachment: fixed;">place</i></a><!-- name="pune" -->
+
+
+
+
+	    
+	</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>    
+    <head>    
+        <title>Login | SignUp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+        <style type="text/css">
+            body 
+            {
+                background-image: url(login_bg_3.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-attachment: fixed;
+                margin: 0px;
+            }
+            .login-form {
+                position: absolute;
+                top: 20%;
+                left: 35%;
+                right: 35%;
+                bottom: 36%;
+                display: inline-block;
+                background-color: white;
+                border-radius: 8px;
+                border: 2px solid #d8dee2;
+                background: rgba(255, 255, 255, 0.6);
+            }
+            .login-form td {
+                padding: 15px;
+            }
+            .login-form-header {
+                font-size: 24px;
+                font-weight: 400;
+                letter-spacing: -.5px;
+                font-family: "Arial";
+                padding: 0px;
+                display: inline-block;
+                width: 100%;
+                font-color: black;
+            }
+            .login-form-header td {
+                align-content: center;
+                text-align: center;
+            }
+            button:hover {
+                cursor: pointer;
+            }
+    </style>    
+    <link href = "mylink.css" type = "text/css" rel = "stylesheet" />    
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    </head>    
+    <body>    
+        <a href="map_page.html">
+            <i class="fa fa-globe fa-2x" style="position: absolute;padding-top: 5px;padding-left: 20px"></i>
+        </a>
+        <div id="header" align="right">
+            <table>
+                <tr>
+                    <td class="nav-tab">
+                        <a href="h_page.html" ><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                    </td>
+                    <td class="nav-tab">
+                        <a href="h_page.html"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Planner</a>                      
+                    </td>
+                    <td class="nav-tab destinations">
+                            <a href="#"><i class="fa fa-location-arrow" aria-hidden="true"></i> Destinations</a>
+                                <table class="dropdown">
+                                <tr>
+                                    <td>
+                                        <a href="himachal.html" target="_blank">
+                                            Himachal Pradesh
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="delhi.html" target="_blank">
+                                            Delhi
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="agra.html" target="_blank">
+                                            Agra
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="varanasi.html" target="_blank">
+                                            Varanasi
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="jaipur.html" target="_blank">
+                                            Jaipur
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="kolkata.html" target="_blank">
+                                            Kolkata
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="pune.html" target="_blank">
+                                            Pune
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="goa.html" target="_blank">
+                                            Goa
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="mysore.html" target="_blank">
+                                            Mysore
+                                        </a>
+                                    </td>
+                                </tr>
+                                </table>
+                    </td>
+                    <td class="nav-tab">
+                        <a href="#" onclick="openNav()"><i class="fa fa-link" aria-hidden="true"></i> About</a>
+                    </td>
+                    <td class="nav-tab">
+                        <a href="login.html"><i  class="fa fa-user-circle-o" aria-hidden="true"></i> Login</a>
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+            <div class="login-form">
+                <table class="login-form-header">
+                    <tr>
+                        <td>
+                            <strong>Sign In to Traveller</strong>
+                        </td>
+                    </tr>
+                </table>
+                <hr/>
+            <table style="width: 100%;">
+                <tr>
+                    <td style="text-align: right;">
+                        <strong>Username</strong>
+                    </td>
+                    <td>
+                        <input type="email" style="width: 100%; height: 25px" placeholder="jane.doe@gmail.com" />
+                    </td>
+                </tr>    
+                <tr>
+                    <td style="text-align: right;">
+                        <strong>Password</strong>
+                    </td>
+                    <td>
+                        <input type="password" style="width: 100%; height: 25px"/>
+                    </td>
+                </tr>            
+            </table>
+            <table style="width: 100%">
+                <tr>
+                    <td >
+                        <button style="color:white; background-color: #2e6da4; border-radius: 10px; width: 100%; font-size: 12px; padding: 10px;"> <strong> Log In </strong></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        
+       <!--  <h2>Log In</h2>
+        <form name = "form1" action="modified.php" method = "post" enctype = "multipart/form-data" >    
+            <div class = "container">    
+                <div class = "form_group">    
+                    <label>First Name:</label>    
+                    <input type = "text" name = "fname" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>Middle Name:</label>    
+                    <input type = "text" name = "mname" value = "" required />    
+                </div>    
+                <div class = "form_group">    
+                    <label>Last Name:</label>    
+                    <input type = "text" name = "lname" value = "" required/>    
+                </div>    
+                <div class = "form_group">    
+                    <label>Password:</label>    
+                    <input type = "password" name = "pwd" value = "" required/>    
+                </div>    
+            </div>    
+        </form>   -->  
+    </body>    
+</html>    
